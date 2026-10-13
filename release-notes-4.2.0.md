@@ -10,6 +10,6 @@
 - 맥(macOS 14+): `Kkumuri-4.2.0-mac-free.zip`
 - 윈도우(10·11 64비트): `Kkumuri-4.2.0-windows-free.zip`
 
-처음 열 때 경고가 뜨면 [처음 열 때](https://github.com/{{GH_USER}}/kkumuri#처음-열-때)를 봐 주세요. 받은 파일은 `SHA256SUMS.txt`의 지문과 같아야 해요.
+처음 열 때 경고가 뜨면 [처음 열 때](https://github.com/hoon1002/kkumuri#처음-열-때)를 봐 주세요. 받은 파일은 `SHA256SUMS.txt`의 지문과 같아야 해요.
 
 무료판은 꾸미기(꾸물이 플러스)가 잠겨 있고 매일 하나씩 써 볼 수 있어요.

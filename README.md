@@ -2,22 +2,22 @@
 
 **화면 위에 사는 작은 다마고치** — 맥 Dock과 윈도우 작업 표시줄 위에서 픽셀 펫을 키워요.
 
-[![꾸물이 광고 영상](assets/poster.jpg)](https://{{GH_USER}}.github.io/kkumuri/#video)
+[![꾸물이 광고 영상](assets/poster.jpg)](https://hoon1002.github.io/kkumuri/#video)
 
 - 펫 79종, 종마다 다른 성격·걸음걸이·말버릇
 - 친구 방: 초대 코드 하나로 맥·윈도우 친구의 펫이 내 화면에 놀러 와요
 - 꾸미기, 함께 집중, 꾸물 일기
 
-소개 페이지: https://{{GH_USER}}.github.io/kkumuri/
+소개 페이지: https://hoon1002.github.io/kkumuri/
 
 ## 받기 (무료판 4.2.0)
 
 | | 파일 | 필요한 것 |
 | --- | --- | --- |
-| 맥 | [Kkumuri-4.2.0-mac-free.zip](https://github.com/{{GH_USER}}/kkumuri/releases/download/v4.2.0/Kkumuri-4.2.0-mac-free.zip) (3MB) | macOS 14 이상 |
-| 윈도우 | [Kkumuri-4.2.0-windows-free.zip](https://github.com/{{GH_USER}}/kkumuri/releases/download/v4.2.0/Kkumuri-4.2.0-windows-free.zip) (39MB) | Windows 10·11 (64비트) |
+| 맥 | [Kkumuri-4.2.0-mac-free.zip](https://github.com/hoon1002/kkumuri/releases/download/v4.2.0/Kkumuri-4.2.0-mac-free.zip) (3MB) | macOS 14 이상 |
+| 윈도우 | [Kkumuri-4.2.0-windows-free.zip](https://github.com/hoon1002/kkumuri/releases/download/v4.2.0/Kkumuri-4.2.0-windows-free.zip) (39MB) | Windows 10·11 (64비트) |
 
-모든 판은 [Releases](https://github.com/{{GH_USER}}/kkumuri/releases)에 있어요. 무료판은 꾸미기(꾸물이 플러스)가 잠겨 있고, 매일 하나씩 무료로 써 볼 수 있어요. 게임과 79종 수집, 친구 방은 모두 무료예요.
+모든 판은 [Releases](https://github.com/hoon1002/kkumuri/releases)에 있어요. 무료판은 꾸미기(꾸물이 플러스)가 잠겨 있고, 매일 하나씩 무료로 써 볼 수 있어요. 게임과 79종 수집, 친구 방은 모두 무료예요.
 
 ## 처음 열 때
 
@@ -47,4 +47,4 @@ cf0f98dd4e6e08fde789c59a423999892a6764ca671dc5ac7a418773f50fb34c  Kkumuri-4.2.0-
 - [꾸물이 포트폴리오 (PDF, 9쪽)](assets/Kkumuri-portfolio.pdf)
 - 기획·결정·실사용 테스트는 직접, 구현은 AI 코딩 에이전트(Claude Code)와 함께 했어요.
 
-이 저장소에는 소개와 배포 파일만 있어요. 소스 코드는 비공개로 관리해요. 문의와 버그 신고는 [Issues](https://github.com/{{GH_USER}}/kkumuri/issues)에 남겨 주세요.
+이 저장소에는 소개와 배포 파일만 있어요. 소스 코드는 비공개로 관리해요. 문의와 버그 신고는 [Issues](https://github.com/hoon1002/kkumuri/issues)에 남겨 주세요.
