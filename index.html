@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>꾸물이 — 화면 위에 사는 작은 다마고치</title>
+<meta name="description" content="맥 Dock과 윈도우 작업 표시줄 위에서 픽셀 펫을 키우는 데스크톱 다마고치. 79종, 친구 방, 꾸미기.">
+<meta property="og:title" content="꾸물이 — 화면 위에 사는 작은 다마고치">
+<meta property="og:description" content="펫 79종, 맥·윈도우 친구가 함께 노는 친구 방. 무료로 받아 보세요.">
+<meta property="og:image" content="https://{{GH_USER}}.github.io/kkumuri/assets/poster.jpg">
+<style>
+  :root { --ink: #2a2236; --sub: #625a74; --line: #e8e2f0; --pink: #e8578c; --card: #ffffffcc; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; color: var(--ink); line-height: 1.65; word-break: keep-all;
+    font-family: -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+    background: linear-gradient(160deg, #dfe8fb 0%, #f3e3f1 45%, #fde9df 100%) fixed; background-color: #f3e3f1;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 64px 0 28px; text-align: center; }
+  header h1 { font-size: clamp(44px, 9vw, 84px); line-height: 1.05; margin: 0 0 10px; letter-spacing: -0.02em; }
+  header p { font-size: clamp(17px, 3vw, 22px); color: var(--sub); margin: 0; }
+  .video { margin: 28px auto 0; border-radius: 18px; overflow: hidden; box-shadow: 0 18px 50px rgba(80, 50, 110, .18); background: #000; }
+  .video video { display: block; width: 100%; height: auto; }
+  .cta { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin: 26px 0 8px; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 22px; border-radius: 999px; font-weight: 700; font-size: 16px;
+         text-decoration: none; color: var(--ink); background: #fff; border: 1.5px solid var(--line); }
+  .btn.primary { background: var(--pink); color: #fff; border-color: var(--pink); }
+  .btn small { font-weight: 500; opacity: .8; }
+  .note { text-align: center; color: var(--sub); font-size: 14px; margin: 6px 0 0; }
+  section { padding: 44px 0 8px; }
+  h2 { font-size: clamp(26px, 4.5vw, 34px); margin: 0 0 8px; letter-spacing: -0.01em; }
+  .lead { color: var(--sub); margin: 0 0 20px; font-size: 17px; }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+  figure { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+  figure img { display: block; width: 100%; height: auto; }
+  figcaption { padding: 12px 16px 14px; font-size: 15px; color: var(--sub); }
+  figcaption b { color: var(--ink); margin-right: 6px; }
+  .pixel { image-rendering: pixelated; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px; }
+  .steps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+  .steps h3 { margin: 0 0 6px; font-size: 18px; }
+  .steps p { margin: 0; color: var(--sub); font-size: 15px; }
+  code, pre { font-family: ui-monospace, Menlo, Consolas, monospace; }
+  pre { background: #2a2236; color: #f3eefb; padding: 14px 16px; border-radius: 12px; overflow-x: auto; font-size: 13px; line-height: 1.6; margin: 12px 0 0; }
+  footer { padding: 48px 0 60px; text-align: center; color: var(--sub); font-size: 14px; }
+  footer a, .card a, .lead a { color: var(--pink); }
+  @media (max-width: 680px) { .grid, .steps { grid-template-columns: 1fr; } header { padding-top: 40px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>꾸물이</h1>
+    <p>맥 Dock과 윈도우 작업 표시줄 위에 사는 작은 다마고치</p>
+    <div class="video" id="video">
+      <video controls preload="metadata" playsinline poster="assets/poster.jpg">
+        <source src="assets/kkumuri-promo-720.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="cta">
+      <a class="btn primary" href="https://github.com/{{GH_USER}}/kkumuri/releases/download/v4.2.0/Kkumuri-4.2.0-mac-free.zip">맥에서 받기 <small>3MB · macOS 14+</small></a>
+      <a class="btn" href="https://github.com/{{GH_USER}}/kkumuri/releases/download/v4.2.0/Kkumuri-4.2.0-windows-free.zip">윈도우에서 받기 <small>39MB · Windows 10/11</small></a>
+    </div>
+    <p class="note">무료판 4.2.0 · 처음 열 때 경고가 뜨면 아래 <a href="#install" style="color:inherit">처음 열 때</a>를 봐 주세요</p>
+  </header>
+
+  <section>
+    <h2>일하는 동안 혼자 걷고, 졸고, 칭얼대요</h2>
+    <p class="lead">메뉴바 아이콘 하나로 돌봄·도감·친구·꾸미기를 열고, 펫은 그동안에도 화면 아래에서 제 성격대로 살아요.</p>
+    <div class="grid">
+      <figure><img src="assets/02-care.jpg" alt="돌봄 화면"><figcaption><b>돌봄</b>밥·간식·목욕·놀기. 칭얼대면 머리 위에 말풍선이 떠요.</figcaption></figure>
+      <figure><img src="assets/07-friends.jpg" alt="친구 방 화면"><figcaption><b>친구 방</b>초대 코드로 모인 친구 펫이 내 화면에 놀러 와 말풍선으로 대화해요.</figcaption></figure>
+      <figure><img src="assets/04-dex.jpg" alt="도감 화면"><figcaption><b>도감</b>만난 종의 성격, 버릇, 말버릇이 적혀요.</figcaption></figure>
+      <figure><img src="assets/05-customize.jpg" alt="꾸미기 화면"><figcaption><b>꾸미기</b>소품·염색·발자국·가구·말풍선·테마.</figcaption></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>79종, 저마다 다르게</h2>
+    <p class="lead">통통 튀고, 둥실 떠다니고, 데굴데굴 구르고. 돌보는 방식에 따라 자라는 모습이 달라져요.</p>
+    <figure><img class="pixel" src="assets/species.png" alt="꾸물이 79종"></figure>
+  </section>
+
+  <section id="install">
+    <h2>처음 열 때</h2>
+    <p class="lead">개인이 만든 앱이라 Apple·Microsoft 인증서가 없어서 처음 한 번 경고가 떠요.</p>
+    <div class="steps">
+      <div class="card"><h3>맥</h3><p>ZIP을 풀고 꾸물이.app을 응용 프로그램 폴더로 옮겨요. "확인되지 않은 개발자" 창이 뜨면 시스템 설정 &gt; 개인정보 보호 및 보안 맨 아래의 <b>그래도 열기</b>를 눌러요.</p></div>
+      <div class="card"><h3>윈도우</h3><p>ZIP을 풀고 Kkumuri.exe를 실행해요. "Windows의 PC 보호" 창이 뜨면 <b>추가 정보 → 실행</b>을 눌러요.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>받은 파일이 맞는지 확인하기</h2>
+    <div class="card">
+      <p style="margin:0;color:var(--sub)">받은 ZIP의 SHA-256 지문이 아래와 같으면 이 페이지에서 올린 파일 그대로예요. 다르면 열지 말고 지워 주세요. 맥은 터미널에서 <code>shasum -a 256 파일</code>, 윈도우는 <code>certutil -hashfile 파일 SHA256</code>.</p>
+<pre>cf0f98dd4e6e08fde789c59a423999892a6764ca671dc5ac7a418773f50fb34c  Kkumuri-4.2.0-mac-free.zip
+48f4769594a07bce1c16b738ebc75cd0e48a5d8a6346aa8e03cc01c19592029a  Kkumuri-4.2.0-windows-free.zip</pre>
+    </div>
+  </section>
+
+  <section>
+    <h2>개인정보</h2>
+    <div class="card">혼자 키울 때는 인터넷으로 아무것도 보내지 않아요. 친구 방에 들어갔을 때만 표시 이름, 대표 펫 모습, 채팅이 서버를 거쳐 친구에게 전해지고, 서버는 채팅을 저장하지 않아요. 광고·분석·추적은 없어요. <a href="https://github.com/{{GH_USER}}/kkumuri/blob/main/PRIVACY.md">개인정보 처리방침</a></div>
+  </section>
+
+  <footer>
+    <p><a href="assets/Kkumuri-portfolio.pdf">포트폴리오 PDF</a> · <a href="https://github.com/{{GH_USER}}/kkumuri/releases">모든 판</a> · <a href="https://github.com/{{GH_USER}}/kkumuri/issues">문의·버그 신고</a></p>
+    <p>무료판은 꾸미기(꾸물이 플러스)가 잠겨 있고 매일 하나씩 써 볼 수 있어요. 게임과 79종 수집, 친구 방은 모두 무료예요.</p>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,2 @@
+cf0f98dd4e6e08fde789c59a423999892a6764ca671dc5ac7a418773f50fb34c  Kkumuri-4.2.0-mac-free.zip
+48f4769594a07bce1c16b738ebc75cd0e48a5d8a6346aa8e03cc01c19592029a  Kkumuri-4.2.0-windows-free.zip
