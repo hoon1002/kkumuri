@@ -6,16 +6,17 @@
 
 - 펫 79종, 종마다 다른 성격·걸음걸이·말버릇
 - 친구 방: 초대 코드 하나로 맥·윈도우 친구의 펫이 내 화면에 놀러 와요
-- 꾸미기, 함께 집중, 꾸물 일기
+- 스스로 크는 꾸물이(4.3): 배고프면 밥그릇에서 먹고, 심심하면 혼자 놀고, 그날 기분에 따라 가끔 고집도 부려요
+- 새 놀이 냠냠 받기·잡아 봐라, 꾸미기(염색 12색), 함께 집중, 꾸물 일기
 
 소개 페이지: https://hoon1002.github.io/kkumuri/
 
-## 받기 (무료판 4.2.0)
+## 받기 (무료판 4.3.0)
 
 | | 파일 | 필요한 것 |
 | --- | --- | --- |
-| 맥 | [Kkumuri-4.2.0-mac-free.zip](https://github.com/hoon1002/kkumuri/releases/download/v4.2.0/Kkumuri-4.2.0-mac-free.zip) (3MB) | macOS 14 이상 |
-| 윈도우 | [Kkumuri-4.2.0-windows-free.zip](https://github.com/hoon1002/kkumuri/releases/download/v4.2.0/Kkumuri-4.2.0-windows-free.zip) (39MB) | Windows 10·11 (64비트) |
+| 맥 | [Kkumuri-4.3.0-mac-free.zip](https://github.com/hoon1002/kkumuri/releases/download/v4.3.0/Kkumuri-4.3.0-mac-free.zip) (3MB) | macOS 14 이상 |
+| 윈도우 | [Kkumuri-4.3.0-windows-free.zip](https://github.com/hoon1002/kkumuri/releases/download/v4.3.0/Kkumuri-4.3.0-windows-free.zip) (39MB) | Windows 10·11 (64비트) |
 
 모든 판은 [Releases](https://github.com/hoon1002/kkumuri/releases)에 있어요. 무료판은 꾸미기(꾸물이 플러스)가 잠겨 있고, 매일 하나씩 무료로 써 볼 수 있어요. 게임과 79종 수집, 친구 방은 모두 무료예요.
 
@@ -31,12 +32,12 @@
 받은 ZIP의 SHA-256 지문이 아래와 같으면, 이 페이지에서 올린 파일 그대로예요. 다르면 열지 말고 지워 주세요.
 
 ```
-cf0f98dd4e6e08fde789c59a423999892a6764ca671dc5ac7a418773f50fb34c  Kkumuri-4.2.0-mac-free.zip
-48f4769594a07bce1c16b738ebc75cd0e48a5d8a6346aa8e03cc01c19592029a  Kkumuri-4.2.0-windows-free.zip
+d395c37d9836327cd816216ecf9c925570853f3a8642cb1644ddc004dd27ad97  Kkumuri-4.3.0-mac-free.zip
+f73fa3fd9a10598bb1a7b8183f20af0b2d0094b575d3852f75c68d165b0ab815  Kkumuri-4.3.0-windows-free.zip
 ```
 
-- 맥 터미널: `shasum -a 256 Kkumuri-4.2.0-mac-free.zip`
-- 윈도우 명령 프롬프트: `certutil -hashfile Kkumuri-4.2.0-windows-free.zip SHA256`
+- 맥 터미널: `shasum -a 256 Kkumuri-4.3.0-mac-free.zip`
+- 윈도우 명령 프롬프트: `certutil -hashfile Kkumuri-4.3.0-windows-free.zip SHA256`
 
 ## 개인정보
 
